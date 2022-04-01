@@ -1,29 +1,18 @@
-# Development stopped
-### Feel free to fork this repo to work on it yourself
-### or
-### Have a look at Dash-to-Panel as an alternative https://extensions.gnome.org/extension/1160/dash-to-panel/ (Update for Gnome 40 is worked on)
+# GNOME Shell Extension TaskBar 2022
 
-<br/><br/><br/><br/><br/><br/>
-
-# GNOME Shell Extension TaskBar 2020
-
-Fork of zpydr/gnome-shell-extension-taskbar to support newer versions of GNOME        
+Fork of c0ldplasma/gnome-shell-extension-taskbar to support newer versions of GNOME        
         
-<img src="https://github.com/c0ldplasma/gnome-shell-extension-taskbar/blob/main/images/taskbar_v56.gif" height="350" alt="TaskBar 2020 Image">
+<img src="https://github.com/hrishi2402/gnome-shell-extension-taskbar/blob/main/images/taskbar_v56.gif" height="350" alt="TaskBar 2022 Image">
 
 ## Wiki (Installation - Settings - Translation - Troubleshooting)                                    
-https://github.com/c0ldplasma/gnome-shell-extension-taskbar/wiki/    
+https://github.com/hrishi2402/gnome-shell-extension-taskbar/wiki/    
 
-## TaskBar 2020 for GNOME 3.30 - (3.)40
-
-https://github.com/c0ldplasma/gnome-shell-extension-taskbar/                                           
-https://extensions.gnome.org/extension/2506/taskbar-updated/                   
-
+## TaskBar 2022 for GNOME 42.0
 ## Features
 
-TaskBar 2020 displays icons of running applications on the top panel or alternatively on a new bottom panel.        
+TaskBar 2022 displays icons of running applications on the top panel or alternatively on a new bottom panel.        
 Activate, minimize or close tasks with a simple click.          
-TaskBar 2020 is a dock-like windows list on the top/bottom bar.      
+TaskBar 2022 is a dock-like windows list on the top/bottom bar.      
                        
 ### Options                 
 - Desktop button - toggle desktop view                       
@@ -52,7 +41,8 @@ TaskBar 2020 is a dock-like windows list on the top/bottom bar.
 ## License
 
 Copyright (C) 2013-2018 zpydr  
-Copyright (C) 2020 c0ldplasma
+Copyright (C) 2020-2022 c0ldplasma
+Copyright (C) 2022 hrishi2402
                 
 This program is free software: you can redistribute it and/or modify            
 it under the terms of the GNU General Public License as published by            

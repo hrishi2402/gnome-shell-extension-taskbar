@@ -552,8 +552,8 @@ TaskBar.prototype = {
 			this.mainBox = null;
 		this.cleanTasksList();
 		if (this.topPanelBackgroundColor !== 'unset') {
-			Main.panel._leftCorner.actor.set_style(this.originalLeftPanelCornerStyle);
-			Main.panel._rightCorner.actor.set_style(this.originalRightPanelCornerStyle);
+			//Main.panel._leftCorner.actor.set_style(this.originalLeftPanelCornerStyle);
+			//Main.panel._rightCorner.actor.set_style(this.originalRightPanelCornerStyle);
 		}
 		if ((this.topPanelBackgroundColor !== 'unset') || (this.panelSet))
 			Main.panel.set_style(this.originalTopPanelStyle);
@@ -562,8 +562,8 @@ TaskBar.prototype = {
 			Main.layoutManager.addChrome(Main.layoutManager.panelBox, {
 				affectsStruts: true
 			});
-			Main.panel._leftCorner.actor.show();
-			Main.panel._rightCorner.actor.show();
+			//Main.panel._leftCorner.actor.show();
+			//Main.panel._rightCorner.actor.show();
 			Main.panel.show();
 		}
 	},
@@ -1285,8 +1285,8 @@ TaskBar.prototype = {
 				affectsStruts: true
 			});
 			Main.panel.show();
-			Main.panel._leftCorner.actor.show();
-			Main.panel._rightCorner.actor.show();
+			//Main.panel._leftCorner.actor.show();
+			//Main.panel._rightCorner.actor.show();
 			this.onParamChanged();
 		}
 	},
@@ -1298,8 +1298,8 @@ TaskBar.prototype = {
 				affectsStruts: false
 			});
 			Main.panel.hide();
-			Main.panel._leftCorner.actor.hide();
-			Main.panel._rightCorner.actor.hide();
+			//Main.panel._leftCorner.actor.hide();
+			//Main.panel._rightCorner.actor.hide();
 		}
 	},
 
@@ -1486,8 +1486,8 @@ TaskBar.prototype = {
 		this.adjustContentSize = this.settings.get_int('content-size');
 		this.panelSet = false;
 		this.originalTopPanelStyle = Main.panel.get_style();
-		this.originalLeftPanelCornerStyle = Main.panel._leftCorner.get_style();
-		this.originalRightPanelCornerStyle = Main.panel._rightCorner.get_style();
+		//this.originalLeftPanelCornerStyle = Main.panel._leftCorner.get_style();
+		//this.originalRightPanelCornerStyle = Main.panel._rightCorner.get_style();
 		//Get Native Panel Background Color
 		let tpobc = Main.panel.get_theme_node().get_background_color();
 		let topPanelOriginalBackgroundColor = 'rgba(%d, %d, %d, %d)'.format(tpobc.red, tpobc.green, tpobc.blue, tpobc.alpha);
@@ -1510,7 +1510,7 @@ TaskBar.prototype = {
 			this.fontSize = 'font-size: ' + this.panelLabelSize + 'px; height: ' + this.panelSize + 'px;';
 			Main.panel.set_style(this.fontSize + ' ' + this.topPanelBackgroundStyle);
 			Main.panel._leftCorner.actor.set_style('-panel-corner-background-color: ' + this.topPanelBackgroundColor + ';');
-			Main.panel._rightCorner.actor.set_style('-panel-corner-background-color: ' + this.topPanelBackgroundColor + ';');
+			//Main.panel._rightCorner.actor.set_style('-panel-corner-background-color: ' + this.topPanelBackgroundColor + ';');
 			this.panelSet = true;
 		}
 		this.panelSize = ((this.settings.get_int('panel-size')) - 6 + (this.settings.get_int('tb-icon-size')));

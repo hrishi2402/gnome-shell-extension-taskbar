@@ -1,10 +1,12 @@
 {
-  "description": "TaskBar 2020 displays icons of running applications and favorites on the top panel or alternatively on a new bottom panel. Activate, minimize or close tasks with a simple click. \n\nTaskBar 2020 is a dock-like windows list on the top/bottom bar. \n\nFork of zpydr/gnome-shell-extension-taskbar to support newer versions of GNOME \n\nPlease submit issues to: https://github.com/c0ldplasma/gnome-shell-extension-taskbar/issues/new", 
-  "name": "TaskBar 2020", 
+  "description": "TaskBar 2022 displays icons of running applications and favorites on the top panel or alternatively on a new bottom panel. Activate, minimize or close tasks with a simple click. \n\nTaskBar 2022 is a dock-like windows list on the top/bottom bar. \n\nFork of c0ldplasma/gnome-shell-extension-taskbar to support newer versions of GNOME \n\nPlease submit issues to: https://github.com/hrishi2402/gnome-shell-extension-taskbar/issues/new/choose", 
+  "name": "TaskBar 2022", 
   "shell-version": [
-    "40"
+    "40",
+    "41",
+    "42"
   ], 
   "url": "https://github.com/c0ldplasma/gnome-shell-extension-taskbar", 
-  "uuid": "TaskBar@c0ldplasma", 
-  "version": 8
+  "uuid": "TaskBar2022@hrishi24", 
+  "version": 9
 }
